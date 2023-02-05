@@ -48,6 +48,20 @@ text-decoration: none;
 text-decoration: none;
   }
 
+  .user{
+    display: flex;
+    justify-content: space-between;
+    z-index: 10000;
+  }
+
+.logintext{
+  
+    color: #111;
+    padding-top: 5px;
+  padding-left: 10px;
+}
+
+
   .banner{
     position: relative;
     width: 100%;
@@ -118,7 +132,8 @@ text-decoration: none;
 .contentBx div.active{
     display: block;
     padding: 30px;
-    padding-left: 100px;
+    padding-left: 70px;
+    padding-bottom: 50px;
     /* background: rgba(0, 0, 0, 0.2); */
 }
 .contentBx div h2{
